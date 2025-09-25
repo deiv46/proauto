@@ -93,42 +93,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Features */}
-      <section className="py-16 px-4">
-        <div className="container mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            <div className="text-center">
-              <div className="w-12 h-12 bg-accent text-accent-foreground rounded-full flex items-center justify-center mx-auto mb-4">
-                <Shield className="w-6 h-6" />
-              </div>
-              <h3 className="font-semibold mb-2">Garantía</h3>
-              <p className="text-sm text-muted-foreground">Todos nuestros vehículos con garantía</p>
-            </div>
-            <div className="text-center">
-              <div className="w-12 h-12 bg-accent text-accent-foreground rounded-full flex items-center justify-center mx-auto mb-4">
-                <Star className="w-6 h-6" />
-              </div>
-              <h3 className="font-semibold mb-2">Calidad</h3>
-              <p className="text-sm text-muted-foreground">Vehículos premium seleccionados</p>
-            </div>
-            <div className="text-center">
-              <div className="w-12 h-12 bg-accent text-accent-foreground rounded-full flex items-center justify-center mx-auto mb-4">
-                <Clock className="w-6 h-6" />
-              </div>
-              <h3 className="font-semibold mb-2">Experiencia</h3>
-              <p className="text-sm text-muted-foreground">Más de 15 años en el sector</p>
-            </div>
-            <div className="text-center">
-              <div className="w-12 h-12 bg-accent text-accent-foreground rounded-full flex items-center justify-center mx-auto mb-4">
-                <Award className="w-6 h-6" />
-              </div>
-              <h3 className="font-semibold mb-2">Servicio</h3>
-              <p className="text-sm text-muted-foreground">Atención personalizada</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Vehicles Section */}
       <section id="vehiculos" className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto">
@@ -190,6 +154,42 @@ export default function HomePage() {
                   </ul>
                 </CardContent>
               </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Features */}
+      <section className="py-16 px-4">
+        <div className="container mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div className="text-center">
+              <div className="w-12 h-12 bg-accent text-accent-foreground rounded-full flex items-center justify-center mx-auto mb-4">
+                <Shield className="w-6 h-6" />
+              </div>
+              <h3 className="font-semibold mb-2">Garantía</h3>
+              <p className="text-sm text-muted-foreground">Todos nuestros vehículos con garantía</p>
+            </div>
+            <div className="text-center">
+              <div className="w-12 h-12 bg-accent text-accent-foreground rounded-full flex items-center justify-center mx-auto mb-4">
+                <Star className="w-6 h-6" />
+              </div>
+              <h3 className="font-semibold mb-2">Calidad</h3>
+              <p className="text-sm text-muted-foreground">Vehículos premium seleccionados</p>
+            </div>
+            <div className="text-center">
+              <div className="w-12 h-12 bg-accent text-accent-foreground rounded-full flex items-center justify-center mx-auto mb-4">
+                <Clock className="w-6 h-6" />
+              </div>
+              <h3 className="font-semibold mb-2">Experiencia</h3>
+              <p className="text-sm text-muted-foreground">Más de 15 años en el sector</p>
+            </div>
+            <div className="text-center">
+              <div className="w-12 h-12 bg-accent text-accent-foreground rounded-full flex items-center justify-center mx-auto mb-4">
+                <Award className="w-6 h-6" />
+              </div>
+              <h3 className="font-semibold mb-2">Servicio</h3>
+              <p className="text-sm text-muted-foreground">Atención personalizada</p>
             </div>
           </div>
         </div>
