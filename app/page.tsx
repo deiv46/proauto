@@ -214,7 +214,7 @@ export default function HomePage() {
                 <h3 className="font-semibold mb-2">Teléfono</h3>
                 <p className="text-muted-foreground mb-4">Llámanos para consultas</p>
                 <Button variant="outline" className="w-full bg-transparent">
-                  +34 977 XXX XXX
+                  +34 653 281 192
                 </Button>
               </CardContent>
             </Card>
@@ -227,7 +227,7 @@ export default function HomePage() {
                 <h3 className="font-semibold mb-2">Email</h3>
                 <p className="text-muted-foreground mb-4">Escríbenos un mensaje</p>
                 <Button variant="outline" className="w-full bg-transparent">
-                  info@proauto.es
+                  pro.autoventa@gmail.com
                 </Button>
               </CardContent>
             </Card>
@@ -280,8 +280,8 @@ export default function HomePage() {
               <h4 className="font-semibold mb-3">Contacto</h4>
               <ul className="space-y-2 text-sm text-accent-foreground/80">
                 <li>Salou, Tarragona</li>
-                <li>+34 977 XXX XXX</li>
-                <li>info@proauto.es</li>
+                <li>+34 653 281 192</li>
+                <li>pro.autoventa@gmail.com</li>
               </ul>
             </div>
           </div>
