@@ -22,8 +22,10 @@ const vehicles = [
     model: "Defender",
     year: 2023,
     mileage: 87000,
+    price: 34000,
     fuel: "Diesel",
     image: "/images/land-rover-defender.png",
+    featured: true,
   },
   {
     id: "3",
@@ -45,6 +47,7 @@ const vehicles = [
     fuel: "Diesel",
     price: 26000,
     image: "/images/jaguar-e-pace.png",
+    featured: true,
   },
   {
     id: "5",
@@ -66,6 +69,7 @@ const vehicles = [
     fuel: "Diesel",
     price: 32000,
     image: "/images/range-rover-velar.png",
+    featured: true,
   },
 ]
 
@@ -86,15 +90,6 @@ export default function HomePage() {
             Descubre nuestra selección exclusiva de vehículos de lujo. Mercedes, BMW, Land Rover, Jaguar y más marcas
             premium.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="text-lg px-8">
-              Ver Vehículos
-            </Button>
-            <Button size="lg" variant="outline" className="text-lg px-8 bg-transparent">
-              <Phone className="w-5 h-5 mr-2" />
-              Contactar
-            </Button>
-          </div>
         </div>
       </section>
 
