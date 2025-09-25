@@ -29,7 +29,7 @@ export function VehicleCard({ brand, model, year, mileage, fuel, price, image, f
         {featured && <Badge className="absolute top-4 left-4 bg-accent text-accent-foreground">Destacado</Badge>}
         {price && (
           <div className="absolute top-4 right-4 bg-background/90 backdrop-blur-sm px-3 py-1 rounded-full">
-            <span className="text-lg font-bold text-foreground">€{price.toLocaleString()}</span>
+            <span className="text-lg font-bold text-foreground">€{price}</span>
           </div>
         )}
       </div>
